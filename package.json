@@ -1,0 +1,21 @@
+{
+  "name": "bl--kpi-k-theme",
+  "displayName": "BLɅϽKPIИK THEME",
+  "description": "This theme is based on BlackPink which is a South Korean girl group formed by YG Entertainment, consisting of members Jisoo, Jennie, Rosé, and Lisa",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "BLɅϽKPIИK THEME",
+        "uiTheme": "vs-dark",
+        "path": "./themes/BLɅϽKPIИK THEME-color-theme.json"
+      }
+    ]
+  }
+}
