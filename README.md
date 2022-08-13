@@ -1,4 +1,4 @@
-# bl--kpi-k-theme README
+# BLɅϽKPIИK-theme README
 
 ## Working with Markdown
 
