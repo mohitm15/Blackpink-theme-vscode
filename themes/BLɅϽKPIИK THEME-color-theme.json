@@ -845,33 +845,43 @@
 
 
 	  /*************************  EDITOR  *************************/
-		"editor.background": "#1A0D1A",
+		"editor.background": "#0F0011",
 		"editor.foreground": "#ffffff",
-		"editorCursor.foreground": "#00f7ff",
+		"editorCursor.foreground":"#FFC0D8",
 		"editor.selectionHighlightBackground": "#1A0D1A",
 		"editor.wordHighlightBackground": "#68686809",
-        "editor.wordHighlightStrongBackground": "#DA0093",
+        "editor.wordHighlightStrongBackground": "#AD0175",
 		"editor.selectionBackground": "#ff00885d",
 		"editor.findMatchHighlightBackground":"#5252529d",
 		"editorError.foreground":"#ff0000",
-		"editorWarning.foreground":"#ffa600de",
-		"editorInfo.border":"#ff4800",
-		"editorLineNumber.foreground":"#8686867c",
-		"editorLineNumber.activeForeground":"#ffffffb2",
-		"editorGroupHeader.tabsBackground":"#00002c",
+		"editorWarning.foreground":"#ffa600de",			
+		"editorInfo.border":"#FF90A8",
+		"editorLineNumber.foreground":"#A15169ad",
+		"editorLineNumber.activeForeground":"#D87890",
+		"editorGroupHeader.tabsBackground":"#220026",
 		"diffEditor.insertedTextBackground":"#20a5842d",
-
+		"diffEditor.removedTextBackground":"#A520202d",
 		"editor.findRangeHighlightBackground": "#34294f1a",
 		"editorWidget.background": "#171520dc",
-		"focusBorder": "#1f212b",
+		"focusBorder": "#5252529d",
 		"list.inactiveFocusBackground": "#2a213999",
-		"peekViewResult.selectionBackground": "#2a213980",
-
+		"peekView.border":"#D87890",
+		"peekViewEditor.background":"#200024",
+		"peekViewResult.background":"#170023",
+		"peekViewEditorGutter.background":"#200024",
+		"peekViewEditor.matchHighlightBackground":"#FFC0D82d",
+		"peekViewResult.matchHighlightBackground": "#FFC0D82d",
+		"peekViewResult.selectionBackground": "#FFC0D81f",
+		"peekViewTitle.background": "#34013Ba6",
+		"peekViewTitleDescription.foreground": "#00000060",
+		
+		
 		/*************************  BREADCRUMS  *************************/
 
-		"breadcrumb.foreground":"#6e6e6e",
-		"breadcrumb.activeSelectionForeground":"#ff0080",
-		"breadcrumbPicker.background":"#28002b",
+		"breadcrumb.foreground":"#D87890dd",
+		"breadcrumb.background":"#0F0012",
+		"breadcrumb.activeSelectionForeground":"#D87890",
+		"breadcrumbPicker.background":"#170023",
 
 		/*************************  TITLE-BAR  *************************/
 
