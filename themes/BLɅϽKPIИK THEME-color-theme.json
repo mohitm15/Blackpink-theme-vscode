@@ -885,51 +885,69 @@
 
 		/*************************  TITLE-BAR  *************************/
 
-		"titleBar.activeBackground": "#0f0021",
-		"titleBar.activeForeground": "#999999a8",
+		"titleBar.activeBackground": "#3A0142",
+		"titleBar.activeForeground": "#FDD0D0a8",
 		"titleBar.inactiveForeground":"#ffd900",
 
 		/*************************  PANEL  *************************/
-		"panel.background": "#0f0021",
-        "panel.border": "#ff4800",
-        "panelTitle.activeBorder": "#00f3d3",
-        "panelTitle.activeForeground": "#eeff00",
-        "panelTitle.inactiveForeground": "#ffffff",
-		"panel.dropBorder":"#ff0000",
+		"panel.background": "#24001E",
+        "panel.border": "#C06078",
+        "panelTitle.activeBorder": "#FFF0FF",
+        "panelTitle.activeForeground": "#F090A8",
+		"panelTitle.background": "#8fe100",
+        "panelTitle.inactiveForeground": "#FFC0D8",
+		"panel.dropBorder":"#C06078",
+		"panelSection.border":"#C06078",
+		"panelSection.dropBackground":"#1A001D",
 
 		
 		/*************************  TERMINAL  *************************/
 
+		"terminal.background":"#190015",
 		"terminal.foreground":"#FF92A5",
-		"terminal.selectionBackground": "#8bb4be5d",
+		"terminal.selectionBackground": "#ff00882f",
 		"terminalCursor.foreground":"#00f7ff",
+		"terminal.border":"#C06078",
 		
 		/*************************  BADGE  *************************/
 
-		"badge.background": "#ffd900",
+		"badge.background": "#FF80BA",
 		"badge.foreground": "#000000",
 
 
 		/*************************  EXTENSION  *************************/
 
-		"extensionButton.prominentHoverBackground": "#ff0080",
-		"extensionButton.prominentForeground": "#ffffff",
-		"extensionButton.prominentBackground": "#FA1F6C",
+		"extensionButton.prominentHoverBackground": "#FD5CA85d",
+		"extensionButton.prominentForeground": "#FF92A5",
+		"extensionButton.prominentBackground": "#190015",
+		"extensionIcon.starForeground":"#F090A8",
+		"extensionBadge.remoteForeground":"#F090A8",
+		"extensionIcon.verifiedForeground":"#F090A8",
 
-		"icon.foreground":"#ffd900",
-		"progressBar.background": "#FA1F6C",
+		"icon.foreground":"#FF80BA",
+		"progressBar.background": "#FF80BA",
 
 		
 		/*************************  DROPDOWN  *************************/
 
-		"dropdown.background": "#28002b",
-		// "dropdown.background": "#232530",
-        "dropdown.listBackground": "#2a2139",
+		"dropdown.background": "#392131",
+		"dropdown.foreground": "#ffffff",
+		"dropdown.border":"#C06078",
+        "dropdown.listBackground": "#C06078",
 
 		/*************************  INPUT  *************************/
 		
-		"input.background": "#28002b",
+		"input.background": "#2B001D",
+		"input.foreground":"#FFC0D8",
+		"input.border":"#FFC0D85f",
+		"input.placeholderForeground":"#FFC0D85f",
 		
+		/*************************  SCROLLBAR  *************************/
+
+		"scrollbar.shadow":"#FF80BA",
+		"scrollbarSlider.background":"#FF80BA5d",
+		"scrollbarSlider.activeBackground":"#FF80BA",
+		"scrollbarSlider.hoverBackground":"#FF80BAaa",
 		
 		/*************************  TEXT  *************************/
 
