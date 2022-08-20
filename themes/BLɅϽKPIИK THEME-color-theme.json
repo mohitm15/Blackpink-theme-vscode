@@ -858,7 +858,9 @@
 		"editorInfo.border":"#FF90A8",
 		"editorLineNumber.foreground":"#A15169ad",
 		"editorLineNumber.activeForeground":"#D87890",
-		"editorGroupHeader.tabsBackground":"#220026",
+		"editorGroupHeader.tabsBackground":"#170013",
+		"editorGroupHeader.tabsBorder":"#FF90A83d",
+		"editorGroup.dropBackground":"#FF90A81D",
 		"diffEditor.insertedTextBackground":"#20a5842d",
 		"diffEditor.removedTextBackground":"#A520202d",
 		"editor.findRangeHighlightBackground": "#34294f1a",
@@ -944,7 +946,7 @@
 		
 		/*************************  SCROLLBAR  *************************/
 
-		"scrollbar.shadow":"#FF80BA",
+		"scrollbar.shadow":"#FF80BA4D",
 		"scrollbarSlider.background":"#FF80BA5d",
 		"scrollbarSlider.activeBackground":"#FF80BA",
 		"scrollbarSlider.hoverBackground":"#FF80BAaa",
@@ -959,31 +961,30 @@
 
 
 		/*************************  ACTIVITY BAR  *************************/	
-		"activityBarBadge.background": "#ffd900",
-		"activityBar.foreground": "#00ffff",	
-		"activityBar.inactiveForeground": "#ffffff6c",
+		"activityBarBadge.background": "#00d9ff",
+		"activityBar.foreground": "#FF67AD",	
+		"activityBar.inactiveForeground": "#F090C0AA",
 		"activityBarBadge.foreground": "#080808",
-		"activityBar.background": "#000124",    // Decision Needed
+		"activityBar.background": "#170013", 
 		"activityBar.activeBorder":  "#ff0080",
-		"activityBar.activeFocusBorder": "#ffd900",
+		"activityBar.activeFocusBorder": "#ff0080",
 
 
 		/*************************  MENU  *************************/
 
-		// "menu.background": "#000000bb",
-		"menu.background": "#010033c7",
+		"menu.background": "#170013",
 		"menu.selectionBackground": "#fd009c56",
 		"menubar.selectionBackground": "#4d4d4d4f",
 		"menu.border":"#bbbbbb46",
 
 		/*************************  SIDE-BAR  *************************/
 
-		"sideBarTitle.foreground": "#28002b",
-		"sideBar.background": "#0a0025",
-		"sideBar.foreground": "#9b9b9b",
+		"sideBarTitle.foreground": "#FECCDF",
+		"sideBar.background": "#24001E",
+		"sideBar.foreground": "#F0A8C0AA",
 		"sideBarSectionHeader.background": "#0000007e",
-
-		"button.background":"#ff0055",
+		"sideBarSectionHeader.foreground":"#FECCDF",	
+		"sideBar.border":"#D878902D",
 
 
 		/*************************  CHECKBOX  *************************/
@@ -993,24 +994,32 @@
 		
 		/*************************  TAB  *************************/
 
-		"tab.activeBorderTop": "#e5ff00",
-		"tab.unfocusedActiveBorderTop":"#00aeff",
-		"tab.border": "#00000059",
+		"tab.activeBorderTop": "#ff0080",
+		"tab.inactiveBorderTop": "#ff0080DD",
+		"tab.unfocusedActiveBorderTop":"#FF0080",
+		"tab.border": "#FFC0D812",
+		"tab.activeBorder":"#FFC0D8AA",
 		"tab.activeBackground": "#160021",
-		"tab.inactiveBackground": "#001621",
-		"tab.hoverBorder":"#ffffff6c",
-		"tab.hoverBackground": "#00001d",
+		"tab.inactiveBackground": "#24001E",
+		"tab.hoverBorder":"#FFC0D86c",
+		"tab.hoverBackground": "#1C0018",
+		"tab.activeForeground":"#F0A8C0FA",
+		"tab.inactiveForeground":"#F0A8C0AA",
+		
 		
 		/*************************  LIST  *************************/
 
-		"list.hoverForeground":"#ffc400",	
+		"list.hoverForeground":"#00FBFF",	
 		"list.activeSelectionBackground":"#5750504f",
-		"list.activeSelectionForeground":"#ffd000",	
+		"list.activeSelectionForeground":"#F0BFB9",	
 		"list.hoverBackground":"#4e484862",
-		"list.focusForeground":"#ffc400",	
+		"list.focusForeground":"#00FBFF",	
 		"list.errorForeground":"#ff0000",
+		"list.warningForeground":"#FFC100",
 		"list.inactiveSelectionForeground":"#ffffff",
+		"list.inactiveSelectionBackground":"#1C0018",
 		"descriptionForeground":"#ffffff",
+		"list.highlightForeground":"#00FBFF",
 
 		
 		/*************************  STATUS-BAR  *************************/
