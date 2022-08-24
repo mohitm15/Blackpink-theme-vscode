@@ -932,10 +932,10 @@
 		
 		/*************************  DROPDOWN  *************************/
 
-		"dropdown.background": "#392131",
-		"dropdown.foreground": "#ffffff",
+		"dropdown.background": "#2B001D",
+		"dropdown.foreground": "#FFC0D8",
 		"dropdown.border":"#C06078",
-        "dropdown.listBackground": "#C06078",
+        "dropdown.listBackground": "#210017",
 
 		/*************************  INPUT  *************************/
 		
@@ -1026,38 +1026,43 @@
 		
 		"statusBar.debuggingBackground":"#FA1F6C",
 		"statusBar.debuggingForeground":"#ffffff",
-		"statusBar.background": "#0a002b",
-		"statusBar.foreground": "#a1a1a183",
+		"statusBar.background": "#CF225F",
+		"statusBar.foreground": "#ffffff",
+		"statusBar.border":"#FFC0D812",
 		"statusBarItem.activeBackground":"#50002b",
+
 		
 		
 		/*************************  NOTIFICATION  *************************/
 		
-		"notifications.background":"#28002b",
-		"notificationCenterHeader.background":"#091c2b",
-		"notificationCenter.border":"#fa1f6c59",
+		"notifications.background":"#000000",
+		"notifications.foreground":"#F090A8",
+		"notificationCenterHeader.background":"#24001E",
+		"notificationCenterHeader.foreground":"#F0BFB9",
+		"notificationCenter.border":"#F090A859",
+		"notifications.border":"#F090A859",
 		"notificationsErrorIcon.foreground":"#ff0000",
 		"notificationsWarningIcon.foreground":"#ffd000",
 		"notificationsInfoIcon.foreground":"#00ffb3",
-		"notificationLink.foreground":"#00d9ff",
+		"notificationLink.foreground":"#F090A8",
 
 
 		/*************************  MINIMAP  *************************/
 		
-		"minimap.selectionHighlight":"#2600277c",
-		"minimapSlider.hoverBackground":"#08f7ff3a",
+		"minimap.selectionHighlight":"#FF80BA7C",
+		"minimapSlider.hoverBackground":"#FF80BA5d",
 		"minimapGutter.deletedBackground":"#ff0000",
 		"minimapGutter.addedBackground":"#00ff55",
 		"minimapGutter.modifiedBackground":"#eeff00",
-		"minimap.findMatchHighlight":"#00ffff",
-		"minimapSlider.activeBackground":"#ffffffbb",
+		"minimap.findMatchHighlight":"#FF80BA",
+		"minimapSlider.activeBackground":"#FF80BAbb",
 
 
 		/*************************  GIT  *************************/
 
 		"gitDecoration.stageModifiedResourceForeground":"#fbff02",
 		"gitDecoration.untrackedResourceForeground":"#00ffffd5",
-		"gitDecoration.addedResourceForeground":"#00ff22",
+		"gitDecoration.addedResourceForeground":"#00ff22"
 
 		
 	},
@@ -1071,7 +1076,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#838383"
+				"foreground": "#F5BCCA99"
 			}
 		},
 		{
@@ -1081,7 +1086,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#FFEEF7"
 			}
 		},
 		{
@@ -1175,7 +1180,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#00ffff"       
+				"foreground": "#FB00FF"       
 			}
 		},
 		{
@@ -1219,7 +1224,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#ff7e34"
+				"foreground": "#FF4387"
 			}
 		},
 		{
