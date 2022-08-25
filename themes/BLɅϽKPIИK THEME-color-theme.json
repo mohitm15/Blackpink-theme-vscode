@@ -1145,7 +1145,9 @@
 				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
 				"keyword.other.template",
-				"keyword.other.substitution"
+				"keyword.other.substitution",
+				"keyword.operator.arithmetic.js",
+				"keyword.operator.ternary.js"
 			],
 			"settings": {
 				"foreground": "#ffffff"
@@ -1171,7 +1173,7 @@
 				"foreground": "#ff0077"
 			}
 		},
-		// funtioncs
+		// functions
 		{
 			"name": "Function, Special Method",
 			"scope": [
@@ -1182,7 +1184,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#AD0175"       
+				"foreground": "#DA7CEF"       //#BF0281
 			}
 		},
 		{
@@ -1420,6 +1422,15 @@
 			}
 		},
 		{
+			"name":"Let And Const",
+			"scope": [
+				"storage.type.js"
+			],
+			"settings": {
+				"foreground": "#D8BFD8"
+			}
+		},
+		{
 			"name": "Variable property",
 			"scope": [
 				"variable.other.property.js",
@@ -1430,18 +1441,19 @@
 			}
 		},
 		{
-			"name": "variables property",
+			"name": "Single , Double Quotes",
 			"scope": [
 				"string.quoted.single.js",
-				"string.quoted.double.js"
+				"string.quoted.double.js",
+				"meta.object.member.js",
+				"meta.block.js"
 			],
 			"settings": {
 				"foreground": "#F2D2BD"
 			}
 		},
-		//variable.other.property.js
 		{
-			"name": "meta.method.js",
+			"name": "Async ",
 			"scope": [
 				"meta.class-method.js entity.name.function.js",
 				"variable.function.constructor",
@@ -1455,9 +1467,11 @@
 			"name": "Attributes & Operators",
 			"scope": [
 				"entity.other.attribute-name.js",
+				"keyword.operator.arithmetic.js",
 				"keyword.operator.assignment.js",
 				"keyword.operator.relational.js",
 				"keyword.operator.comparison.js",
+				"keyword.operator.ternary.js",
 				"storage.type.function.arrow.js"
 			],
 			"settings": {
@@ -1496,8 +1510,100 @@
 				"foreground": "#82AAFF"
 			}
 		},
-
-
+		//CPP
+		{	"name":"preprocessor",
+			"scope": "entity.name.function.preprocessor",
+			"settings": {
+				"foreground": "#BD63C5"
+			}
+		},
+		{
+			"name":"Label Name",
+			"scope": "entity.name.label",
+			"settings": {
+				"foreground": "#00fff2"
+			}
+		},
+		{
+			"name":"Header",
+			"scope": "header",
+			"settings": {
+				"foreground": "#000080"
+			}
+		},
+		{
+			"name":"namespace",
+			"scope": "entity.name.namespace",
+			"settings": {
+				"foreground": "#C8C8C8"
+			}
+		},
+		//Python
+		{
+			"name":"def of Function",
+			"scope":[
+				"storage.type.function.python"
+			],
+			"settings": {
+				"foreground": "#D8BFD8"
+			}
+		},
+		{
+			"name":"Function's Arguments/parameter",
+			"scope":[
+				"meta.function-call.arguments.python",
+				"variable.parameter.function.language.python"
+			],
+			"settings": {
+				"foreground": "#FF69B4"
+			}
+		},
+		{
+			"name": "Attributes & Operators",
+			"scope": [
+				"entity.other.attribute-name.python",
+				"keyword.operator.arithmetic.python",
+				"keyword.operator.assignment.python",
+				"keyword.operator.relational.python",
+				"keyword.operator.comparison.python",
+				"keyword.operator.ternary.python",
+			],
+			"settings": {
+				"foreground": "#00fff2"
+			}
+		},
+		{
+			"name": "Single , Double Quotes",
+			"scope": [
+				"string.quoted.single.python",
+				"string.quoted.double.python",
+				"meta.object.member.python",
+				"meta.block.python"
+			],
+			"settings": {
+				"foreground": "#F2D2BD"
+			}
+		},
+		{
+			"name": "Array Name & Python Variables",
+			"scope":[
+				"meta.indexed-name.python",
+				"source.python"
+			],
+			"settings": {
+				"foreground":"#FFC0D8"
+			}
+		},
+		{
+			"name": "Array Index Name",
+			"scope":[
+				"meta.item-access.arguments.python"
+			],
+			"settings": {
+				"foreground":"#a1c3d3"
+			}
+		},
+		
 		// markup
 		{
 			"name": "Inserted",
@@ -1576,6 +1682,7 @@
 				"foreground": "#FF5370"
 			}
 		},
+		//JSON
 		{
 			"name": "JSON Key - Level 0",
 			"scope": [
@@ -1648,7 +1755,6 @@
 				"foreground": "#ff0062"
 			}
 		},
-		//JSON
 		{
 			"name": "JSON Key - Level 8",
 			"scope": [
