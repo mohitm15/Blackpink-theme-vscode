@@ -1255,12 +1255,11 @@
 			}
 		},
 		{
-			"name": "Symbols, Inherited Class, Markup Heading",
+			"name": "Symbols, Markup Heading",
 			"scope": [
 				
 				"constant.other.symbol",
 				"constant.other.key",
-				"entity.other.inherited-class",
 				"markup.heading",
 				"markup.inserted.git_gutter",
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
@@ -1585,6 +1584,14 @@
 			}
 		},
 		{
+			"name":"Docstring",
+			"scope":["string.quoted.docstring.multi.python"],
+			"settings":{
+				"fontStyle":"italic",
+				"foreground":"#00ebb8"
+			}
+		},
+		{
 			"name": "Array Name & Python Variables",
 			"scope":[
 				"meta.indexed-name.python",
@@ -1597,12 +1604,37 @@
 		{
 			"name": "Array Index Name",
 			"scope":[
-				"meta.item-access.arguments.python"
+				"meta.item-access.arguments.python",
+				"variable.language.special.self.python"
 			],
 			"settings": {
 				"foreground":"#a1c3d3"
 			}
 		},
+		{
+			"name":"Decorators",
+			"scope":[
+				"entity.name.function.decorator.python",
+				"punctuation.definition.decorator.python"
+			],
+			"settings": {
+					"fontStyle":"italic",
+					"foreground":"#FFC100"
+				}
+			
+		},
+		{
+			"name":"Class",
+			"scope":[
+				"storage.type.class.python",
+			],
+			"settings": {
+					"fontStyle":"italic",
+					"foreground":"#BF0281"
+				}
+			
+		},
+		
 		//JAVA
 
 		{
