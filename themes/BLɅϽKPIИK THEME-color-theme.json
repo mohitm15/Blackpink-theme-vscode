@@ -1603,7 +1603,127 @@
 				"foreground":"#a1c3d3"
 			}
 		},
-		
+		//JAVA
+
+		{
+			"name":"Functions",
+			"scope":[
+				"entity.name.function.java"
+			],
+			"settings": {
+				"foreground":"#DA7CEF"
+			}
+		},
+		{
+			"name":"Variables",
+			"scope":[
+				"variable.other.definition.java"
+			],
+			"settings": {
+				"foreground":"#C8C8C8"
+			}
+		},
+		{
+			"name":"Data Types, parameter",
+			"scope":[
+				"storage.type.java",
+				"storage.type.object.array.java",
+				"storage.type.primitive.array.java",
+				"meta.method.body.java",
+				"meta.function-call.java",
+				"variable.parameter.java"
+			],
+			"settings": {
+				"foreground":"#FF69B4"
+			}
+		},
+		{
+			"name":"Import Keywords",
+			"scope":[
+				"keyword.other.import.java"
+			],
+			"settings": {
+				"foreground":"#ff0062"
+			}
+		},
+		{
+			"name":"Object ",
+			"scope":[
+				"variable.other.object.java"
+			],
+			"settings": {
+				"foreground":"#a1c3d3"
+			}
+		},
+		{
+			"name":"Object Property",
+			"scope":[
+				"variable.other.object.property.java"
+			],
+			"settings": {
+				"foreground":"#FFC0D8"
+			}
+		},
+		{
+			"name":"Control Keywords",
+			"scope":[
+				"keyword.control.java"
+			],
+			"settings": {
+				"foreground":"#D87890"
+			}
+		},
+		{
+			"name": "Attributes & Operators",
+			"scope": [
+				"entity.other.attribute-name.java",
+				"keyword.operator.arithmetic.java",
+				"keyword.operator.assignment.java",
+				"keyword.operator.relational.java",
+				"keyword.operator.comparison.java",
+				"keyword.operator.ternary.java",
+				"storage.type.function.arrow.java"
+			],
+			"settings": {
+				"foreground": "#00fff2"
+			}
+		},
+		{
+			"name":"Extends",
+			"scope":[
+				"storage.modifier.extends.java",
+				"storage.modifier.import.java",
+				"keyword.control.new.java",
+				"variable.language.java",
+				
+			],
+			"settings": {
+				"fontStyle":"italic",
+				"foreground":"#00FBFF"
+			}
+		},
+		{
+			"name":"Type & Inherited Class,Enum ",
+			"scope":[
+				"storage.type.primitive.java",
+				"entity.other.inherited-class.java",
+				"constant.other.enum.java"
+			],
+			"settings": {
+				"foreground":"#F2D2BD"
+			}
+		},
+		{
+			"name":"Star/WildCard",
+			"scope":[
+				"storage.type.annotation.java",
+				"variable.language.wildcard.java"
+		],
+			"settings": {
+				"foreground":"#fbff02"
+			}
+		},
+
 		// markup
 		{
 			"name": "Inserted",
