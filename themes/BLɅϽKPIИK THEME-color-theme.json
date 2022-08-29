@@ -1073,7 +1073,8 @@
 			"scope": [
 				"comment",
 				"punctuation.definition.comment",
-				"punctuation.definition.comment.documentation.cpp"
+				"punctuation.definition.comment.documentation.cpp",
+				"comment.block.php"
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -1147,10 +1148,12 @@
 				"keyword.other.template",
 				"keyword.other.substitution",
 				"keyword.operator.arithmetic.js",
-				"keyword.operator.ternary.js"
+				"keyword.operator.ternary.js",
+				"keyword.operator.logical.js",
+				"keyword.operator.comparison.js"
 			],
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#00fff2"
 			}
 		},
 		{
@@ -1329,6 +1332,7 @@
 				"support.constant.property-value.misc.css",
 				"support.constant.font-name.css",
 				"keyword.operator.combinator.css",
+				"keyword.operator.logical.css",
 				"support.constant.color.w3c-standard-color-name.css",
 				"support.constant.color.w3c-extended-color-name.css"
 			],
@@ -1471,6 +1475,9 @@
 				"keyword.operator.relational.js",
 				"keyword.operator.comparison.js",
 				"keyword.operator.ternary.js",
+				"keyword.operator.increment.js",
+				"keyword.operator.decrement.js",
+				"keyword.other.important.js",
 				"storage.type.function.arrow.js"
 			],
 			"settings": {
@@ -1565,7 +1572,9 @@
 				"keyword.operator.assignment.python",
 				"keyword.operator.relational.python",
 				"keyword.operator.comparison.python",
+				"keyword.operator.increment-decrement.python",
 				"keyword.operator.ternary.python",
+				"keyword.other.important.python"
 			],
 			"settings": {
 				"foreground": "#00fff2"
@@ -1713,7 +1722,9 @@
 				"keyword.operator.assignment.java",
 				"keyword.operator.relational.java",
 				"keyword.operator.comparison.java",
+				"keyword.operator.increment-decrement.java",
 				"keyword.operator.ternary.java",
+				"keyword.other.important.java",
 				"storage.type.function.arrow.java"
 			],
 			"settings": {
@@ -1755,7 +1766,89 @@
 				"foreground":"#fbff02"
 			}
 		},
-
+		//PHP
+		{
+			"name":"Variable",
+			"scope":[
+				"variable.other.php",
+				"keyword.other.type.php",
+				"keyword.control.case.php",
+				"keyword.control.default.php"
+			],
+			"settings": {
+				"foreground":"#FF69B4"
+			}
+		},
+		{
+			"name": "Variable property",
+			"scope": [
+				"variable.other.class.php",
+				"variable.other.object.php",
+				"variable.other.property.php"
+			],
+			"settings": {
+				"foreground": "#FFC0D8"
+			}
+		},
+		{
+			"name": "Operators",
+			"scope": [
+				"entity.other.attribute-name.php",
+				"keyword.operator.arithmetic.php",
+				"keyword.operator.assignment.php",
+				"keyword.operator.relational.php",
+				"keyword.operator.comparison.php",
+				"keyword.operator.ternary.php",
+				"keyword.operator.increment-decrement.php",
+				"keyword.operator.class.php",
+				"keyword.operator.key.php",
+				"keyword.other.important.php",
+				"storage.type.function.arrow.php"
+			],
+			"settings": {
+				"foreground": "#00fff2"
+			}
+		},
+		{
+			"name":"Punctuation",
+			"scope":[
+				"punctuation.definition.variable.php",
+				"constant.other.php"
+			],
+			"settings": {
+				"foreground":"#00FBFF"
+			}
+		},
+		{
+			"name":"this,echo",
+			"scope":[
+				"variable.language.this.php",
+				"support.function.construct.output.php"
+			],
+			"settings": {
+				"foreground":"#a1c3d3"
+			}
+		},
+		{
+			"name":"extends",
+			"scope":[
+				"storage.modifier.extends.php",
+				"storage.type.function.php"
+		],
+			"settings": {
+				"fontStyle":"italic",
+				"foreground":"#BF0281"
+			}
+		},
+		{
+			"name":"Language",
+			"scope":[
+				"constant.language.php"
+		],
+			"settings": {
+				"foreground":"#CEF9C5"
+			}
+		},
 		// markup
 		{
 			"name": "Inserted",
