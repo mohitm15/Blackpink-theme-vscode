@@ -1896,7 +1896,7 @@
 			}
 		},
 		{
-			"name": "URL",
+			"name": "URL underline",
 			"scope": [
 				"*url*",
 				"*link*",
@@ -1929,6 +1929,16 @@
 		},
 		//JSON
 		{
+			"name":"Numbers & Booleans",
+			"scope":[
+				"constant.numeric.json",
+				"constant.language.json"
+			],
+			"settings": {
+				"foreground":"#F8A15E"
+			}
+		},
+		{
 			"name": "JSON Key - Level 0",
 			"scope": [
 				"source.json meta.structure.dictionary.json support.type.property-name.json"
@@ -1943,7 +1953,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#FF3CDF"
 			}
 		},
 		{
@@ -1952,7 +1962,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#FF69B4"
 			}
 		},
 		{
@@ -2009,6 +2019,8 @@
 				"foreground": "#C3E88D"
 			}
 		},
+		
+
 		//Markdown
 		{
 			"name": "Markdown - Plain",
