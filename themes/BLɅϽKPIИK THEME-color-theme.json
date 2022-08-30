@@ -2029,7 +2029,36 @@
 				"punctuation.definition.list_item.markdown"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#F2BDDC"
+			}
+		},
+		{
+			"name": "Markdown - Section",
+			"scope": [
+				"entity.name.section.markdown"
+				],
+			"settings": {
+				"foreground": "#DA7CEF"
+			}
+		},
+		{
+			"name": "Markdown - UnderlineLink",
+			"scope": [
+				"markup.underline.link.markdown",
+				"markup.underline.link.image.markdown"
+			],
+			"settings": {
+				"foreground": "#FF69B4"
+			}
+		},
+		{
+			"name":"Markdown - Shell Script",
+			"scope": [
+				"meta.embedded.block.shellscript",
+				"fenced_code.block.language"
+			],
+			"settings":{
+				"foreground":"#a1c3d3"
 			}
 		},
 		{
@@ -2058,7 +2087,7 @@
 				"markup.heading.markdown punctuation.definition.heading.markdown"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#BF0281"
 			}
 		},
 		{
@@ -2131,7 +2160,7 @@
 				"string.other.link.title.markdown"
 			],
 			"settings": {
-				"foreground": "#ff0062"
+				"foreground": "#F8A15E"
 			}
 		},
 		{
@@ -2217,6 +2246,17 @@
 			"settings": {
 				"foreground": "#EEFFFF"
 			}
+		},
+		{
+			"name":"Markdown -AttributeName",
+			"scope":[
+				"invalid.deprecated.entity.other.attribute-name.html"
+			],
+			"settings": {
+				"fontStyle":"italic",
+				"foreground":"#82fbff"
+			}
+
 		}
 	]
 
