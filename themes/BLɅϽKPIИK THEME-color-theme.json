@@ -1,9 +1,26 @@
+// ============================================================================
+// BLACKPINK — MIDNIGHT STAGE | Visual Studio Code colour theme
+// ============================================================================
+// Colour inspiration: deep black/plum + rose/hot pink (BLACKPINK aesthetic).
+// Maintenance map:
+//   colors              = UI surfaces, borders, selections, terminal, etc.
+//   tokenColors         = TextMate syntax scopes / fallback highlighting.
+//   semanticTokenColors = language-server-aware symbols and modifiers.
+// 
+// AUTHOR: mohitm15
+// ============================================================================
 {
   "$schema": "vscode://schemas/color-theme",
   "name": "BLACKPINK — Midnight Stage",
   "type": "dark",
   "semanticHighlighting": true,
+  // WORKBENCH COLOURS: all UI surfaces, navigation, and editor widgets.
   "colors": {
+    // -----------------------------------------------------------------------------
+    // 01 / EDITOR + NAVIGATION
+    // Near-black canvas with light foreground; rose selection/cursor accents.
+    // Eight-digit hex values use #RRGGBBAA (the last two digits set opacity).
+    // -----------------------------------------------------------------------------
     "editor.background": "#0F0011",
     "editor.foreground": "#ffffff",
     "editorCursor.foreground": "#FFC0D8",
@@ -35,13 +52,25 @@
     "peekViewResult.selectionBackground": "#FFC0D81f",
     "peekViewTitle.background": "#34013Ba6",
     "peekViewTitleDescription.foreground": "#D87890",
+    // -----------------------------------------------------------------------------
+    // 02 / BREADCRUMBS
+    // Path and symbol navigation immediately above the editor.
+    // -----------------------------------------------------------------------------
     "breadcrumb.foreground": "#D87890dd",
     "breadcrumb.background": "#0F0012",
     "breadcrumb.activeSelectionForeground": "#D87890",
     "breadcrumbPicker.background": "#170023",
+    // -----------------------------------------------------------------------------
+    // 03 / TITLE BAR
+    // Plum header; subtle pink text when active.
+    // -----------------------------------------------------------------------------
     "titleBar.activeBackground": "#3A0142",
     "titleBar.activeForeground": "#FDD0D0a8",
     "titleBar.inactiveForeground": "#A86078",
+    // -----------------------------------------------------------------------------
+    // 04 / PANELS
+    // Problems, Output, Debug Console, and other bottom panels.
+    // -----------------------------------------------------------------------------
     "panel.background": "#24001E",
     "panel.border": "#C06078",
     "panelTitle.activeBorder": "#FFF0FF",
@@ -50,13 +79,25 @@
     "panel.dropBorder": "#C06078",
     "panelSection.border": "#C06078",
     "panelSection.dropBackground": "#1A001D",
+    // -----------------------------------------------------------------------------
+    // 05 / INTEGRATED TERMINAL
+    // Separate near-black shade for terminal and its selection/cursor.
+    // -----------------------------------------------------------------------------
     "terminal.background": "#190015",
     "terminal.foreground": "#FF92A5",
     "terminal.selectionBackground": "#ff00882f",
     "terminalCursor.foreground": "#00f7ff",
     "terminal.border": "#C06078",
+    // -----------------------------------------------------------------------------
+    // 06 / BADGES
+    // Notification counts and compact UI status labels.
+    // -----------------------------------------------------------------------------
     "badge.background": "#FF80BA",
     "badge.foreground": "#000000",
+    // -----------------------------------------------------------------------------
+    // 07 / EXTENSIONS + PROGRESS
+    // Prominent install/action buttons and decorative theme icon accents.
+    // -----------------------------------------------------------------------------
     "extensionButton.prominentHoverBackground": "#FD5CA85d",
     "extensionButton.prominentForeground": "#FF92A5",
     "extensionButton.prominentBackground": "#190015",
@@ -65,23 +106,43 @@
     "extensionIcon.verifiedForeground": "#F090A8",
     "icon.foreground": "#FF80BA",
     "progressBar.background": "#FF80BA",
+    // -----------------------------------------------------------------------------
+    // 08 / DROPDOWNS
+    // Select menus in settings and other UI controls.
+    // -----------------------------------------------------------------------------
     "dropdown.background": "#2B001D",
     "dropdown.foreground": "#FFC0D8",
     "dropdown.border": "#C06078",
     "dropdown.listBackground": "#210017",
+    // -----------------------------------------------------------------------------
+    // 09 / TEXT INPUTS
+    // Input text should remain readable against the burgundy-purple field.
+    // -----------------------------------------------------------------------------
     "input.background": "#2B001D",
     "input.foreground": "#FFC0D8",
     "input.border": "#FFC0D85f",
     "input.placeholderForeground": "#CB91AC",
+    // -----------------------------------------------------------------------------
+    // 10 / SCROLLBARS
+    // Translucent pink thumbs preserve the dark surface underneath.
+    // -----------------------------------------------------------------------------
     "scrollbar.shadow": "#FF80BA4D",
     "scrollbarSlider.background": "#FF80BA5d",
     "scrollbarSlider.activeBackground": "#FF80BA",
     "scrollbarSlider.hoverBackground": "#FF80BAaa",
+    // -----------------------------------------------------------------------------
+    // 11 / LINKS + QUOTE/CODE CONTAINERS
+    // Cyan links are deliberately distinct from the pink UI hierarchy.
+    // -----------------------------------------------------------------------------
     "textLink.foreground": "#00d9ff",
     "textLink.activeForeground": "#00d9ff",
     "textBlockQuote.background": "#0000004f",
     "textCodeBlock.background": "#0000004f",
     "textBlockQuote.border": "#D87890",
+    // -----------------------------------------------------------------------------
+    // 12 / ACTIVITY BAR
+    // Explorer, Search, SCM, Run/Debug and Extensions launcher.
+    // -----------------------------------------------------------------------------
     "activityBarBadge.background": "#00d9ff",
     "activityBar.foreground": "#FF67AD",
     "activityBar.inactiveForeground": "#F090C0AA",
@@ -89,17 +150,33 @@
     "activityBar.background": "#170013",
     "activityBar.activeBorder": "#ff0080",
     "activityBar.activeFocusBorder": "#ff0080",
+    // -----------------------------------------------------------------------------
+    // 13 / MENUS
+    // Context menus and menubar selection backgrounds.
+    // -----------------------------------------------------------------------------
     "menu.background": "#170013",
     "menu.selectionBackground": "#fd009c56",
     "menubar.selectionBackground": "#4d4d4d4f",
     "menu.border": "#bbbbbb46",
+    // -----------------------------------------------------------------------------
+    // 14 / SIDEBAR
+    // Folder tree, section headings and sidebar typography.
+    // -----------------------------------------------------------------------------
     "sideBarTitle.foreground": "#FECCDF",
     "sideBar.background": "#24001E",
     "sideBar.foreground": "#F0A8C0AA",
     "sideBarSectionHeader.background": "#0000007e",
     "sideBarSectionHeader.foreground": "#FECCDF",
     "sideBar.border": "#D878902D",
+    // -----------------------------------------------------------------------------
+    // 15 / CHECKBOXES
+    // Small green accent for selected checkbox indicators.
+    // -----------------------------------------------------------------------------
     "checkbox.foreground": "#00ebb8",
+    // -----------------------------------------------------------------------------
+    // 16 / EDITOR TABS
+    // Strong upper border for active tabs; dimmed line for inactive tabs.
+    // -----------------------------------------------------------------------------
     "tab.activeBorderTop": "#ff0080",
     "tab.inactiveBorderTop": "#FF008035",
     "tab.unfocusedActiveBorderTop": "#FF0080",
@@ -111,6 +188,10 @@
     "tab.hoverBackground": "#1C0018",
     "tab.activeForeground": "#F0A8C0FA",
     "tab.inactiveForeground": "#F0A8C0AA",
+    // -----------------------------------------------------------------------------
+    // 17 / LISTS AND TREE SELECTIONS
+    // Hover/selection colours for Explorer, command lists and quick pick.
+    // -----------------------------------------------------------------------------
     "list.hoverForeground": "#00FBFF",
     "list.activeSelectionBackground": "#5750504f",
     "list.activeSelectionForeground": "#F0BFB9",
@@ -122,12 +203,20 @@
     "list.inactiveSelectionBackground": "#1C0018",
     "descriptionForeground": "#ffffff",
     "list.highlightForeground": "#FF80BA",
+    // -----------------------------------------------------------------------------
+    // 18 / STATUS BAR
+    // Signature vivid pink status bar, with a distinct debugging treatment.
+    // -----------------------------------------------------------------------------
     "statusBar.debuggingBackground": "#FA1F6C",
     "statusBar.debuggingForeground": "#ffffff",
     "statusBar.background": "#CF225F",
     "statusBar.foreground": "#ffffff",
     "statusBar.border": "#FFC0D812",
     "statusBarItem.activeBackground": "#50002b",
+    // -----------------------------------------------------------------------------
+    // 19 / NOTIFICATIONS
+    // Toasts, notification-center header and error/warning/info icons.
+    // -----------------------------------------------------------------------------
     "notifications.background": "#000000",
     "notifications.foreground": "#F090A8",
     "notificationCenterHeader.background": "#24001E",
@@ -138,6 +227,10 @@
     "notificationsWarningIcon.foreground": "#ffd000",
     "notificationsInfoIcon.foreground": "#00ffb3",
     "notificationLink.foreground": "#F090A8",
+    // -----------------------------------------------------------------------------
+    // 20 / MINIMAP
+    // Search/selection markers, slider and source-control gutter decorations.
+    // -----------------------------------------------------------------------------
     "minimap.selectionHighlight": "#FF80BA7C",
     "minimapSlider.hoverBackground": "#FF80BA5d",
     "minimapGutter.deletedBackground": "#ff0000",
@@ -145,9 +238,17 @@
     "minimapGutter.modifiedBackground": "#eeff00",
     "minimap.findMatchHighlight": "#FF80BA",
     "minimapSlider.activeBackground": "#FF80BAbb",
+    // -----------------------------------------------------------------------------
+    // 21 / SOURCE CONTROL
+    // Colours for staged, added, and untracked files.
+    // -----------------------------------------------------------------------------
     "gitDecoration.stageModifiedResourceForeground": "#fbff02",
     "gitDecoration.untrackedResourceForeground": "#00ffffd5",
     "gitDecoration.addedResourceForeground": "#00ff22",
+    // -----------------------------------------------------------------------------
+    // 22 / MODERN EDITOR DETAILS
+    // Indentation, matching brackets, hover and autocomplete widgets.
+    // -----------------------------------------------------------------------------
     "editorIndentGuide.background1": "#FFC0D821",
     "editorIndentGuide.activeBackground1": "#FF80BA78",
     "editorBracketMatch.border": "#FF80BAAA",
@@ -170,6 +271,10 @@
     "editor.findMatchBackground": "#FF80BA44",
     "editor.findMatchBorder": "#FF80BA",
     "editorWhitespace.foreground": "#FFC0D838",
+    // -----------------------------------------------------------------------------
+    // 23 / ANSI TERMINAL PALETTE
+    // Terminal red/green/yellow retain meaning; purple/pink match the theme.
+    // -----------------------------------------------------------------------------
     "terminal.ansiBlack": "#190015",
     "terminal.ansiRed": "#FF5370",
     "terminal.ansiGreen": "#C3E88D",
@@ -187,7 +292,13 @@
     "terminal.ansiBrightCyan": "#00FFF2",
     "terminal.ansiBrightWhite": "#FFFFFF"
   },
+  // TEXTMATE TOKEN COLOURS: first matching specificity controls fallback syntax.
+  // Do not use broad scopes such as "source.python" to colour entire documents.
   "tokenColors": [
+    // -----------------------------------------------------------------------------
+    // 01 / GENERAL TEXTMATE RULES
+    // Fallbacks for comments, variables, literals, operators, types and strings.
+    // -----------------------------------------------------------------------------
     {
       "name": "Comment",
       "scope": [
@@ -404,6 +515,10 @@
         "foreground": "#F0A8A8"
       }
     },
+    // -----------------------------------------------------------------------------
+    // 02 / CSS, SASS AND SHARED TYPES
+    // Property names, classes, selectors, supported values and media queries.
+    // -----------------------------------------------------------------------------
     {
       "name": "CSS Class and Support",
       "scope": [
@@ -484,6 +599,10 @@
         "foreground": "#FCD07E"
       }
     },
+    // -----------------------------------------------------------------------------
+    // 03 / JAVASCRIPT
+    // Identifiers, methods, operators, properties and async syntax.
+    // -----------------------------------------------------------------------------
     {
       "name": "entity.name.method.js",
       "scope": [
@@ -574,6 +693,10 @@
         "foreground": "#00fff2"
       }
     },
+    // -----------------------------------------------------------------------------
+    // 04 / HTML
+    // Element tags, attributes and links inside HTML.
+    // -----------------------------------------------------------------------------
     {
       "name": "HTML Tags",
       "scope": [
@@ -604,6 +727,10 @@
         "foreground": "#82AAFF"
       }
     },
+    // -----------------------------------------------------------------------------
+    // 05 / C / C++
+    // Preprocessor directives, labels, include headers and namespaces.
+    // -----------------------------------------------------------------------------
     {
       "name": "preprocessor",
       "scope": [
@@ -641,6 +768,10 @@
         "foreground": "#C8C8C8"
       }
     },
+    // -----------------------------------------------------------------------------
+    // 06 / PYTHON
+    // Definitions, arguments, docstrings, decorators, and object access.
+    // -----------------------------------------------------------------------------
     {
       "name": "def of Function",
       "scope": [
@@ -735,6 +866,10 @@
         "foreground": "#FF69B4"
       }
     },
+    // -----------------------------------------------------------------------------
+    // 07 / JAVA
+    // Syntax-level fallbacks; semantic Java token overrides live below.
+    // -----------------------------------------------------------------------------
     {
       "name": "Functions",
       "scope": [
@@ -852,6 +987,10 @@
         "foreground": "#fbff02"
       }
     },
+    // -----------------------------------------------------------------------------
+    // 08 / PHP
+    // Variables, properties, operators, and language constructs.
+    // -----------------------------------------------------------------------------
     {
       "name": "Variable",
       "scope": [
@@ -934,6 +1073,10 @@
         "foreground": "#CEF9C5"
       }
     },
+    // -----------------------------------------------------------------------------
+    // 09 / GENERIC MARKUP / REGEXP
+    // Diff markup, escape sequences and several shared syntax tokens.
+    // -----------------------------------------------------------------------------
     {
       "name": "Inserted",
       "scope": [
@@ -1009,6 +1152,10 @@
         "foreground": "#FF5370"
       }
     },
+    // -----------------------------------------------------------------------------
+    // 10 / JSON
+    // Values and nested key levels; longer scope paths target deeper keys.
+    // -----------------------------------------------------------------------------
     {
       "name": "Numbers & Booleans",
       "scope": [
@@ -1100,6 +1247,10 @@
         "foreground": "#C3E88D"
       }
     },
+    // -----------------------------------------------------------------------------
+    // 11 / MARKDOWN
+    // Headings, emphasis, code, links, quotes and tables.
+    // -----------------------------------------------------------------------------
     {
       "name": "Markdown - Plain",
       "scope": [
@@ -1306,6 +1457,10 @@
         "foreground": "#82fbff"
       }
     },
+    // -----------------------------------------------------------------------------
+    // 12 / TYPESCRIPT, TSX AND JSX
+    // More focused scopes for JSX attributes, templates, and TS symbols.
+    // -----------------------------------------------------------------------------
     {
       "name": "BLACKPINK · TypeScript/TSX keywords",
       "scope": [
@@ -1430,6 +1585,10 @@
         "foreground": "#F0A8A8"
       }
     },
+    // -----------------------------------------------------------------------------
+    // 13 / PYTHON / C++ ADDITIONS
+    // Additional targeted rules retained from the optimized theme.
+    // -----------------------------------------------------------------------------
     {
       "name": "BLACKPINK · Python types",
       "scope": [
@@ -1452,6 +1611,10 @@
         "foreground": "#F0A8A8"
       }
     },
+    // -----------------------------------------------------------------------------
+    // 14 / JSON WITH COMMENTS (JSONC)
+    // Support for JSONC and comment-aware editors.
+    // -----------------------------------------------------------------------------
     {
       "name": "BLACKPINK · JSONC keys",
       "scope": [
@@ -1462,6 +1625,10 @@
         "foreground": "#FF69B4"
       }
     },
+    // -----------------------------------------------------------------------------
+    // 15 / JAVA FOCUSED FALLBACKS
+    // Classes, annotations, constructors, namespaces and read-write variables.
+    // -----------------------------------------------------------------------------
     {
       "name": "BLACKPINK · Java declarations and types",
       "scope": [
@@ -1515,7 +1682,13 @@
       }
     }
   ],
+  // SEMANTIC TOKEN COLOURS: precise symbol types from supported language servers.
+  // Syntax rules above remain fallbacks when semantic tokens are unavailable.
   "semanticTokenColors": {
+    // -----------------------------------------------------------------------------
+    // 01 / GENERIC SEMANTIC SYMBOLS
+    // Used when a language server provides symbol-aware highlighting.
+    // -----------------------------------------------------------------------------
     "namespace": "#C8C8C8",
     "type": "#F0A8A8",
     "class": "#F0A8A8",
@@ -1545,10 +1718,18 @@
       "foreground": "#B991A4",
       "italic": true
     },
+    // -----------------------------------------------------------------------------
+    // 02 / JAVASCRIPT, JSX, TYPESCRIPT, TSX
+    // Language-qualified selectors override the generic token colour.
+    // -----------------------------------------------------------------------------
     "variable:javascript": "#FF69B4",
     "variable:javascriptreact": "#FF69B4",
     "variable:typescript": "#FF69B4",
     "variable:typescriptreact": "#FF69B4",
+    // -----------------------------------------------------------------------------
+    // 03 / PYTHON
+    // Preserve the theme's soft pink Python variables and gold decorators.
+    // -----------------------------------------------------------------------------
     "variable:python": "#FFC0D8",
     "method:javascript": {
       "foreground": "#FDFF82",
@@ -1568,6 +1749,11 @@
       "foreground": "#FFC100",
       "italic": true
     },
+    // -----------------------------------------------------------------------------
+    // 04 / JAVA
+    // More reliable differentiation of Java variables, methods, classes and annotations.
+    // Requires a Java language extension that publishes semantic tokens.
+    // -----------------------------------------------------------------------------
     "variable.readonly:java": "#F2D2BD",
     "variable:java": "#C8C8C8",
     "method:java": "#DA7CEF",
