@@ -290,8 +290,66 @@
     "terminal.ansiBrightBlue": "#A1C3D3",
     "terminal.ansiBrightMagenta": "#F49EFF",
     "terminal.ansiBrightCyan": "#00FFF2",
-    "terminal.ansiBrightWhite": "#FFFFFF"
+    "terminal.ansiBrightWhite": "#FFFFFF",
+
+    // ───────────── WELCOME PAGE ─────────────
+
+    // Match the main editor's midnight-black background.
+    "welcomePage.background": "#0F0011",
+
+    // Walkthrough cards and their hover states.
+    "welcomePage.tileBackground": "#24001E",
+    "welcomePage.tileHoverBackground": "#3A0142",
+    "welcomePage.tileBorder": "#C0607850",
+
+    // Replace default cyan walkthrough progress indicators.
+    "welcomePage.progress.background": "#3A0142",
+    "welcomePage.progress.foreground": "#FF80BA",
+
+    // Walkthrough text and embedded editors.
+    "walkthrough.stepTitle.foreground": "#FFC0D8",
+    "walkThrough.embeddedEditorBackground": "#160021",
+
+
+    // ───────────── NEW / EMPTY PROJECT WINDOW ─────────────
+
+    // Background when no file is open.
+    "editorGroup.emptyBackground": "#0F0011",
+
+    // Subtle pink outline when the empty editor is focused.
+    "editorGroup.focusedEmptyBorder": "#FF80BA66",
+
+
+    // ───────────── WELCOME LINKS ─────────────
+
+    // New File, Open File, Clone Repository, Recent Projects.
+    // Replaces the existing cyan link colours.
+    "textLink.foreground": "#FF80BA",
+    "textLink.activeForeground": "#FFC0D8",
+
+
+    // ───────────── PRIMARY ACTION BUTTONS ─────────────
+
+    // Open Folder, Create Project, and other primary actions.
+    "button.background": "#CF225F",
+    "button.foreground": "#FFFFFF",
+    "button.hoverBackground": "#FA1F6C",
+
+    // Secondary buttons.
+    "button.secondaryBackground": "#24001E",
+    "button.secondaryForeground": "#FFC0D8",
+    "button.secondaryHoverBackground": "#3A0142",
+
+
+    // ───────────── WELCOME PAGE CHECKBOXES ─────────────
+
+    // Show Welcome Page on Startup checkbox.
+    "checkbox.background": "#170013",
+    "checkbox.foreground": "#FF80BA",
+    "checkbox.border": "#F090A8"
   },
+
+  
   // TEXTMATE TOKEN COLOURS: first matching specificity controls fallback syntax.
   // Do not use broad scopes such as "source.python" to colour entire documents.
   "tokenColors": [
