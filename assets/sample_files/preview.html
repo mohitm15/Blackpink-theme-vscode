@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Metadata and stylesheet link -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inventory Status Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a href="#top" class="brand-logo" aria-label="StockPulse Home">
+        <span class="brand-logo__mark" aria-hidden="true"></span>
+        StockPulse
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#catalog" class="site-nav__link is-active">Catalog</a>
+        <a href="#alerts" class="site-nav__link">Low Stock</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top" class="container page-main">
+    <section id="catalog" class="catalog-section" aria-labelledby="catalog-heading">
+      <div class="section-heading">
+        <h1 id="catalog-heading" class="section-heading__title">Hardware Inventory</h1>
+        <p class="section-heading__subtitle">Live unit counts and tax-inclusive pricing.</p>
+      </div>
+
+      <div class="product-grid">
+        <!-- In-stock item card -->
+        <article class="product-card" data-sku="KB-01" data-status="in-stock">
+          <div class="product-card__header">
+            <h2 class="product-card__title">Mechanical Keyboard</h2>
+            <span class="badge badge--success">In Stock</span>
+          </div>
+          <p class="product-card__meta">SKU: <code>KB-01</code> · 12 units available</p>
+          <p class="product-card__price">$105.61</p>
+        </article>
+
+        <!-- Low-stock item card -->
+        <article class="product-card product-card--featured" data-sku="MS-02" data-status="low-stock">
+          <div class="product-card__header">
+            <h2 class="product-card__title">Wireless Mouse</h2>
+            <span class="badge badge--warning">Low Stock</span>
+          </div>
+          <p class="product-card__meta">SKU: <code>MS-02</code> · 4 units left</p>
+          <p class="product-card__price">$53.10</p>
+        </article>
+
+        <!-- Out-of-stock item card -->
+        <article class="product-card" data-sku="HD-03" data-status="out-of-stock">
+          <div class="product-card__header">
+            <h2 class="product-card__title">USB-C Hub</h2>
+            <span class="badge badge--danger">Out of Stock</span>
+          </div>
+          <p class="product-card__meta">SKU: <code>HD-03</code> · 0 units left</p>
+          <p class="product-card__price">$41.29</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer id="alerts" class="site-footer">
+    <div class="container">
+      <p class="site-footer__copy">Prices include an 18% standard tax rate.</p>
+    </div>
+  </footer>
+</body>
+</html>

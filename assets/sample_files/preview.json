@@ -1,0 +1,70 @@
+{
+  "order_id": "ORD-2026-8841",
+  "created_at": "2026-11-21T13:58:00+05:30",
+  "status": "processing",
+  "is_priority": true,
+  "customer": {
+    "id": "CUST-1042",
+    "name": "Aarav Mehta",
+    "contact": {
+      "email": "aarav.mehta@example.com",
+      "phone": "+91-98260-11223"
+    },
+    "shipping_address": {
+      "street": "42 Arera Colony, E-3",
+      "city": "Bhopal",
+      "state": "Madhya Pradesh",
+      "postal_code": "462016",
+      "country": "India"
+    }
+  },
+  "items": [
+    {
+      "line_number": 1,
+      "sku": "KB-01",
+      "name": "Mechanical Keyboard",
+      "quantity": 1,
+      "unit_price": 89.5,
+      "discount": {
+        "code": "DESK10",
+        "percentage": 10.0,
+        "amount_saved": 8.95
+      },
+      "tags": ["peripherals", "desk"]
+    },
+    {
+      "line_number": 2,
+      "sku": "MS-02",
+      "name": "Wireless Mouse",
+      "quantity": 2,
+      "unit_price": 45.0,
+      "discount": null,
+      "tags": ["peripherals", "wireless"]
+    }
+  ],
+  "pricing": {
+    "currency": "USD",
+    "subtotal": 170.55,
+    "tax_rate": 0.18,
+    "tax_amount": 30.7,
+    "shipping_cost": 12.0,
+    "grand_total": 213.25
+  },
+  "fulfillment": {
+    "warehouse_code": "BHQ-01",
+    "carrier": "BlueDart",
+    "tracking_number": null,
+    "events": [
+      {
+        "timestamp": "2026-11-21T13:58:00+05:30",
+        "stage": "order_received",
+        "notes": "Payment authorized and inventory reserved."
+      },
+      {
+        "timestamp": "2026-11-21T14:15:00+05:30",
+        "stage": "queued_for_packing",
+        "notes": null
+      }
+    ]
+  }
+}
