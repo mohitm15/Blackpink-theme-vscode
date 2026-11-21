@@ -196,19 +196,19 @@ The gallery below contains **intentional placeholders**. Each entry has an HTML 
 
 ## 🎨 Core palette
 
-| UI or syntax element | Hex | Appearance |
-| --- | --- | --- |
-| Editor background | `#0F0011` | Near-black plum |
-| Sidebar / panel background | `#24001E` | Deep aubergine |
-| Activity Bar background | `#170013` | Midnight black-purple |
-| Title bar background | `#3A0142` | Dark violet |
-| Status bar background | `#CF225F` | Signature saturated pink |
-| Active tab top accent | `#FF0080` | Electric hot pink |
-| Cursor | `#FFC0D8` | Soft blush pink |
-| Functions / methods | `#DA7CEF` | Lavender |
-| Strings | `#FFA0B8` | Warm rose |
-| Operators | `#00FFF2` | Neon cyan |
-| Keywords | `#FF0062` | Vivid rose-red |
+| UI or syntax element | Appearance |
+| --- | --- |
+| Editor background | Near-black plum |
+| Sidebar / panel background  | Deep aubergine |
+| Activity Bar background  | Midnight black-purple |
+| Title bar background  | Dark violet |
+| Status bar background  | Signature saturated pink |
+| Active tab top accent  | Electric hot pink |
+| Cursor  | Soft blush pink |
+| Functions / methods  | Lavender |
+| Strings  | Warm rose |
+| Operators  | Neon cyan |
+| Keywords  | Vivid rose-red |
 
 The contrast between black, rose, and neon accents is intentional. Rendering can vary with semantic highlighting support and installed language extensions.
 
@@ -246,7 +246,7 @@ The theme supplies **TextMate syntax rules**, with **semantic-token colours** fo
 4. Open the colour-theme picker: **Ctrl+K, Ctrl+T** (Windows/Linux) or **Cmd+K, Cmd+T** (macOS).
 5. Select **BLACKPINK — Midnight Stage**.
 
-For a quick Java preview, open [`examples/BlackpinkThemePreview.java`](examples/BlackpinkThemePreview.java) and use a Java language extension if you want semantic-token highlighting.
+For a quick Python preview, open [`/assets/sample_files/preview.py`](/assets/sample_files/preview.py) and use a Java language extension if you want semantic-token highlighting.
 
 ### Install from the VS Code Marketplace (after publication)
 
@@ -272,7 +272,7 @@ Open VS Code `settings.json` and override individual theme colours without editi
 }
 ```
 
-The theme file includes `//` explanatory comments, so it is **JSON with Comments (JSONC)** rather than strict JSON. Keep the extension file at `themes/BLACKPINK-Midnight-Stage-color-theme.json` as referenced by `package.json`.
+The theme file includes `//` explanatory comments, so it is **JSON with Comments (JSONC)** rather than strict JSON. Keep the extension file at `themes/blackpink-midnight-stage-color-theme.json` as referenced by `package.json`.
 
 To diagnose colour differences, run **Developer: Inspect Editor Tokens and Scopes** from the Command Palette. It helps identify which TextMate or semantic token rule is responsible.
 
@@ -283,13 +283,12 @@ blackpink-midnight-stage-1.0.0/
 ├── README.md
 ├── package.json
 ├── themes/
-│   └── BLACKPINK-Midnight-Stage-color-theme.json
-├── examples/
-│   └── BlackpinkThemePreview.java
+│   └── blackpink-midnight-stage-color-theme.json
 └── assets/
     └── sample_files/
+          └── preview.py
     └── screenshots/
-        └── .gitkeep          # Add the screenshots listed above
+        └── ss1.png         
 ```
 
 ## ❓ Troubleshooting
@@ -306,8 +305,8 @@ blackpink-midnight-stage-1.0.0/
 
 This project is **prepared for future publication**, but the current package is still configured for local use. Before publishing:
 
-- [ ] Capture the screenshots above and replace all placeholder captions/comments with real images.
-- [ ] Create your GitHub repository and set its real URL in `package.json` (`repository`, optionally `homepage` and `bugs`).
+- [x] Capture the screenshots above and replace all placeholder captions/comments with real images.
+- [x] Create your GitHub repository and set its real URL in `package.json` (`repository`, optionally `homepage` and `bugs`).
 - [ ] Register a VS Code Marketplace publisher and replace the temporary `publisher: "local-blackpink"` ID.
 - [ ] Remove `"private": true` from `package.json` when preparing to publish.
 - [ ] Add the `author` metadata (`Mohit Maroliya`) to `package.json`.
