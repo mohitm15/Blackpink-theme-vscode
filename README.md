@@ -171,6 +171,9 @@ The gallery below contains **intentional placeholders**. Each entry has an HTML 
      paired with visible active/inactive tabs and the editor minimap.
      Suggested file: assets/screenshots/10-diff-minimap-tabs.png
 -->
+
+<img width="1903" height="1047" alt="beforeGIT" src="https://github.com/user-attachments/assets/71709eec-cff2-4875-9910-eefdc6361b57" />
+
 <!-- ![Diff editor, minimap, and tabs](assets/screenshots/10-diff-minimap-tabs.png) -->
 
 > 📸 **Screenshot slot 10 — Diff editor, minimap and editor tabs.**
