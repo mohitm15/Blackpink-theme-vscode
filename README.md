@@ -33,173 +33,161 @@ The gallery below contains **intentional placeholders**. Each entry has an HTML 
 
 ### Code highlighting
 
-#### 02 · JavaScript / TypeScript
+#### 01 · JavaScript / TypeScript
 
-<!-- SCREENSHOT 02 — JAVASCRIPT OR TYPESCRIPT
+<!-- SCREENSHOT 01 — JAVASCRIPT OR TYPESCRIPT
      Add a screenshot of a sample .js or .ts file showing import/export,
      const/let, arrow functions, async/await, arrays, objects, and operators.
      Keep keyword pink, function lavender, and operator cyan visible.
-     Suggested file: assets/screenshots/02-javascript-typescript.png
+     Suggested file: assets/screenshots/01-javascript-typescript.png
 -->
 <img width="960" height="540" alt="ss2" src="https://github.com/user-attachments/assets/2eebc366-0699-4550-bb2e-8391b6dffda6" />
 
-<!-- ![JavaScript and TypeScript syntax highlighting](assets/screenshots/02-javascript-typescript.png) -->
+<!-- ![JavaScript and TypeScript syntax highlighting](assets/screenshots/01-javascript-typescript.png) -->
 
 > 📸 **Screenshot slot 02 — JavaScript / TypeScript editor.**
 
-#### 03 · React / JSX / TSX
 
-<!-- SCREENSHOT 03 — REACT
-     Add a screenshot of a sample React .tsx file featuring a typed component,
-     hooks, JSX tags, props, event handlers, and a conditional render.
-     Capture enough lines to show distinct TS, JSX, and string colours.
-     Suggested file: assets/screenshots/03-react-tsx.png
--->
+#### 02 · Python
 
-<!-- ![React TSX component with BLACKPINK highlighting](assets/screenshots/03-react-tsx.png) -->
-
-> 📸 **Screenshot slot 03 — React / TSX component.**
-
-#### 04 · Python
-
-<!-- SCREENSHOT 04 — PYTHON
+<!-- SCREENSHOT 02 — PYTHON
      Add a screenshot of a sample Python file with def, class, decorators,
      type hints, list/dict comprehension, strings, numbers, and docstrings.
      Include the line-number gutter to demonstrate readability.
-     Suggested file: assets/screenshots/04-python.png
+     Suggested file: assets/screenshots/02-python.png
 -->
 <img width="1920" height="1080" alt="beforePY" src="https://github.com/user-attachments/assets/3de9270e-414b-49ec-a4ab-fd855d58eb09" />
-<!-- ![Python syntax highlighting and decorators](assets/screenshots/04-python.png) -->
+<!-- ![Python syntax highlighting and decorators](assets/screenshots/02-python.png) -->
 
 > 📸 **Screenshot slot 04 — Python editor.**
 
-#### 05 · Java
+#### 03 · Java
 
-<!-- SCREENSHOT 05 — JAVA
+<!-- SCREENSHOT 03 — JAVA
      Add a screenshot of examples/BlackpinkThemePreview.java in VS Code.
      Show imports, annotations, classes, interfaces, generics, methods,
      switch expressions, and strings. A Java language extension that emits
      semantic tokens is recommended for an accurate preview.
-     Suggested file: assets/screenshots/05-java.png
+     Suggested file: assets/screenshots/03-java.png
 -->
 <img width="1903" height="1047" alt="beforeJAVA" src="https://github.com/user-attachments/assets/ca2893ce-a52e-48b7-b270-8a206244287a" />
 
 
-<!-- ![Java syntax highlighting using BlackpinkThemePreview.java](assets/screenshots/05-java.png) -->
+<!-- ![Java syntax highlighting using BlackpinkThemePreview.java](assets/screenshots/03-java.png) -->
 
-> 📸 **Screenshot slot 05 — Java syntax and semantic highlighting.**
+> 📸 **Screenshot slot 03 — Java syntax and semantic highlighting.**
 
-#### 06 · HTML / CSS / SCSS
+#### 04 · HTML / CSS / SCSS
 
-<!-- SCREENSHOT 06 — HTML AND CSS
+<!-- SCREENSHOT 04 — HTML AND CSS
      Add a screenshot of split editors: HTML/JSX markup on one side and
      CSS/SCSS styles on the other. Include tags, attributes, class names,
      property names, colour values, and responsive media queries.
-     Suggested file: assets/screenshots/06-html-css.png
+     Suggested file: assets/screenshots/04-html-css.png
 -->
 <img width="1920" height="1080" alt="beforeCSS" src="https://github.com/user-attachments/assets/d8d82588-c9d9-4834-8258-185c587f4bca" />
 
-<!-- ![HTML and CSS side-by-side preview](assets/screenshots/06-html-css.png) -->
+<!-- ![HTML and CSS side-by-side preview](assets/screenshots/04-html-css.png) -->
 
-> 📸 **Screenshot slot 06 — HTML and CSS split editor.**
+> 📸 **Screenshot slot 04 — HTML and CSS split editor.**
 
-#### 07 · JSON / Markdown
+#### 05 · JSON / Markdown
 
-<!-- SCREENSHOT 07 — JSON AND MARKDOWN
+<!-- SCREENSHOT 05 — JSON AND MARKDOWN
      Add a split-editor screenshot with a nested JSON/JSONC sample and a
      Markdown document. Show nested keys, numbers, booleans, headings,
      links, inline code, and fenced code blocks.
-     Suggested file: assets/screenshots/07-json-markdown.png
+     Suggested file: assets/screenshots/05-json-markdown.png
 -->
 <img width="1920" height="1080" alt="beforeJSN" src="https://github.com/user-attachments/assets/46d61232-304c-466b-8a15-d35c9d1509c7" />
 
-<!-- ![JSON and Markdown highlighting](assets/screenshots/07-json-markdown.png) -->
+<!-- ![JSON and Markdown highlighting](assets/screenshots/04-json-markdown.png) -->
 
-> 📸 **Screenshot slot 07 — JSON and Markdown.**
+> 📸 **Screenshot slot 05 — JSON and Markdown.**
 
 ### Workbench and panels
 
-#### 08 · Integrated terminal
+#### 06 · Integrated terminal
 
-<!-- SCREENSHOT 08 — TERMINAL WINDOW
+<!-- SCREENSHOT 06 — TERMINAL WINDOW
      Add a screenshot of the VS Code integrated terminal. Show the terminal
      panel, command prompt, command output, tabs, and cyan terminal cursor.
      Use harmless demo commands; hide personal paths and environment secrets.
-     Suggested file: assets/screenshots/08-terminal.png
+     Suggested file: assets/screenshots/06-terminal.png
 -->
 <img width="1920" height="1080" alt="beforeTER" src="https://github.com/user-attachments/assets/5c15418e-fcfa-4a04-80ca-b5b31ce85a0b" />
 
 
-<!-- ![Integrated terminal with black and pink accents](assets/screenshots/08-terminal.png) -->
+<!-- ![Integrated terminal with black and pink accents](assets/screenshots/06-terminal.png) -->
 
-> 📸 **Screenshot slot 08 — Integrated terminal panel.**
+> 📸 **Screenshot slot 06 — Integrated terminal panel.**
 
-#### 09 · Explorer / Source Control
+#### 07 · Explorer / Source Control
 
-<!-- SCREENSHOT 09 — SIDEBAR AND SOURCE CONTROL PANEL
+<!-- SCREENSHOT 07 — SIDEBAR AND SOURCE CONTROL PANEL
      Add a screenshot highlighting Explorer folders, selected files,
      Activity Bar icons, Source Control decorations, and sidebar headings.
      A small demo repository with staged/modified files works best.
-     Suggested file: assets/screenshots/09-explorer-source-control.png
+     Suggested file: assets/screenshots/07-explorer-source-control.png
 -->
 <img width="657" height="1051" alt="beforeEXPLORER" src="https://github.com/user-attachments/assets/39cc1daa-0026-448f-a9ee-64481f870236" />
 
-<!-- ![Explorer and Source Control sidebar styling](assets/screenshots/09-explorer-source-control.png) -->
+<!-- ![Explorer and Source Control sidebar styling](assets/screenshots/07-explorer-source-control.png) -->
 
-> 📸 **Screenshot slot 09 — Explorer and Source Control.**
+> 📸 **Screenshot slot 07 — Explorer and Source Control.**
 
-#### 10 · Search / Command Palette
+#### 08 · Search / Command Palette
 
-<!-- SCREENSHOT 10 — SEARCH AND COMMAND PALETTE
+<!-- SCREENSHOT 08 — SEARCH AND COMMAND PALETTE
      Add a screenshot showing Search results and the Command Palette or
      Quick Open overlay. Highlight the dropdown, input, match highlights,
      selected result, and keyboard focus colours.
-     Suggested file: assets/screenshots/10-search-command-palette.png
+     Suggested file: assets/screenshots/08-search-command-palette.png
 -->
 <img width="1471" height="792" alt="beforeSEARCH" src="https://github.com/user-attachments/assets/610e2ecd-9287-443e-bd79-06352db98573" />
 
-<!-- ![VS Code Search panel and Command Palette](assets/screenshots/10-search-command-palette.png) -->
+<!-- ![VS Code Search panel and Command Palette](assets/screenshots/08-search-command-palette.png) -->
 
-> 📸 **Screenshot slot 10 — Search and Command Palette.**
+> 📸 **Screenshot slot 08 — Search and Command Palette.**
 
-#### 11 · Settings
+#### 09 · Settings
 
-<!-- SCREENSHOT 11 — DEBUGGER AND PROBLEMS PANEL
+<!-- SCREENSHOT 09 — DEBUGGER AND PROBLEMS PANEL
      Add a screenshot with a breakpoint, active debug line, Run and Debug
      controls, variables/watch area, and Problems panel diagnostics.
      Use a sample project with no credentials or production code.
-     Suggested file: assets/screenshots/11-debug-problems.png
+     Suggested file: assets/screenshots/09-debug-problems.png
 -->
 <img width="1903" height="1047" alt="beforeSETTINGS" src="https://github.com/user-attachments/assets/016650b6-9ce4-420f-a8d7-271c524524a8" />
 
-<!-- ![Debug session and Problems panel highlighting](assets/screenshots/11-debug-problems.png) -->
+<!-- ![Debug session and Problems panel highlighting](assets/screenshots/09-debug-problems.png) -->
 
-> 📸 **Screenshot slot 11 — Settings panel.**
+> 📸 **Screenshot slot 09 — Settings panel.**
 
-#### 12 · Diff Editor / Minimap / Tabs
+#### 10 · Diff Editor / Minimap / Tabs
 
-<!-- SCREENSHOT 12 — DIFF EDITOR AND EDITOR DETAILS
+<!-- SCREENSHOT 10 — DIFF EDITOR AND EDITOR DETAILS
      Add a screenshot of a Git diff showing inserted and removed lines,
      paired with visible active/inactive tabs and the editor minimap.
-     Suggested file: assets/screenshots/12-diff-minimap-tabs.png
+     Suggested file: assets/screenshots/10-diff-minimap-tabs.png
 -->
-<!-- ![Diff editor, minimap, and tabs](assets/screenshots/12-diff-minimap-tabs.png) -->
+<!-- ![Diff editor, minimap, and tabs](assets/screenshots/10-diff-minimap-tabs.png) -->
 
-> 📸 **Screenshot slot 12 — Diff editor, minimap and editor tabs.**
+> 📸 **Screenshot slot 10 — Diff editor, minimap and editor tabs.**
 
-#### 13 · Extensions  / Notifications
+#### 11 · Extensions  / Notifications
 
-<!-- SCREENSHOT 13 — SETTINGS AND EXTENSION UI
+<!-- SCREENSHOT 11 —  EXTENSION UI
      Add a screenshot of the Extensions view or Settings UI, preferably
      with a notification or tooltip visible. Showcase interactive controls,
      section headings, buttons, borders, and pink highlights.
-     Suggested file: assets/screenshots/13-settings-extensions.png
+     Suggested file: assets/screenshots/11-settings-extensions.png
 -->
 <img width="1903" height="1047" alt="beforeEXT" src="https://github.com/user-attachments/assets/0b7f8969-7c86-4abf-b7c8-81a20798ab6d" />
 
-<!-- ![Settings, Extensions, and notification styling](assets/screenshots/13-settings-extensions.png) -->
+<!-- ![Settings, Extensions, and notification styling](assets/screenshots/11-settings-extensions.png) -->
 
-> 📸 **Screenshot slot 13 — Extensions UI.**
+> 📸 **Screenshot slot 11 — Extensions UI.**
 
 **Screenshot tips:** Keep the same editor font and zoom across captures; use real screenshots rather than mockups; crop out personal information, private repositories, tokens, and identifying file paths. PNG files at roughly 1600–1920 pixels wide work well for desktop previews. Add your screenshots to `assets/screenshots/` before activating their image links.
 
