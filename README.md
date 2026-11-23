@@ -307,12 +307,12 @@ This project is **prepared for future publication**, but the current package is 
 
 - [x] Capture the screenshots above and replace all placeholder captions/comments with real images.
 - [x] Create your GitHub repository and set its real URL in `package.json` (`repository`, optionally `homepage` and `bugs`).
-- [ ] Register a VS Code Marketplace publisher and replace the temporary `publisher: "local-blackpink"` ID.
-- [ ] Remove `"private": true` from `package.json` when preparing to publish.
-- [ ] Add the `author` metadata (`Mohit Maroliya`) to `package.json`.
-- [ ] Choose a license and create the corresponding `LICENSE` file; add a `CHANGELOG.md`.
-- [ ] Optionally add an original PNG extension icon (no official BLACKPINK artwork or logos without permission).
-- [ ] Check that README image links resolve correctly when packaged; set `repository` before relying on relative GitHub image paths.
+- [x] Register a VS Code Marketplace publisher and replace the temporary `publisher: "local-blackpink"` ID.
+- [x] Remove `"private": true` from `package.json` when preparing to publish.
+- [x] Add the `author` metadata (`Mohit Maroliya`) to `package.json`.
+- [x] Choose a license and create the corresponding `LICENSE` file; add a `CHANGELOG.md`.
+- [x] Optionally add an original PNG extension icon (no official BLACKPINK artwork or logos without permission).
+- [x] Check that README image links resolve correctly when packaged; set `repository` before relying on relative GitHub image paths.
 - [ ] Package/test the extension and check its Marketplace preview before publishing.
 
 After those checks, install the official packaging tool and build a VSIX:
