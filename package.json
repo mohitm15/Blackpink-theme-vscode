@@ -12,6 +12,7 @@
     "type": "git",
     "url": "https://github.com/mohitm15/Blackpink-theme-vscode"
   },
+  "icon": "assets/icon.png",
   "engines": {
     "vscode": "^1.70.0"
   },
