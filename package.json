@@ -1,20 +1,46 @@
+
 {
   "name": "bl--kpi-k-theme",
   "displayName": "BLɅϽKPIИK THEME",
-  "description": "This theme is based on BlackPink which is a South Korean girl group formed by YG Entertainment, consisting of members Jisoo, Jennie, Rosé, and Lisa",
+  "description": "An unofficial BLACKPINK-inspired dark VS Code theme featuring midnight black, deep plum, rose-pink and neon accents, with carefully tuned syntax and semantic highlighting.",
   "version": "0.0.1",
+  "publisher": "mohitm15",
+  "author": {
+    "name": "Mohit Maroliya"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mohitm15/Blackpink-theme-vscode"
+  },
+  "icon": "assets/icon.png",
   "engines": {
     "vscode": "^1.70.0"
   },
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "blackpink",
+    "kpop",
+    "pink",
+    "dark-theme",
+    "vscode-theme",
+    "rose-pink",
+    "purple",
+    "syntax-highlighting",
+    "semantic-highlighting"
+  ],
+  "galleryBanner": {
+    "color": "#0F0011",
+    "theme": "dark"
+  },
   "contributes": {
     "themes": [
       {
         "label": "BLɅϽKPIИK THEME",
         "uiTheme": "vs-dark",
-        "path": "./themes/BLɅϽKPIИK THEME-color-theme.json"
+        "path": "./themes/blackpink-midnight-stage-color-theme.json"
       }
     ]
   }
