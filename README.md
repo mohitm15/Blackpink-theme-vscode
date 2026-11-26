@@ -2,9 +2,8 @@
 
 **A BLACKPINK-inspired dark colour theme for Visual Studio Code.** Deep-black and plum surfaces meet rose-pink accents, lavender functions, and flashes of neon cyan. Designed for a distinctive workspace without losing the syntax cues you need to code.
 
-**Theme:** `BLACKPINK — Midnight Stage` · **Version:** `1.0.0` · **Author:** **Mohit Maroliya**
+**Live Preview:** [BLACKPINK Theme](https://vscodethemes.com/e/mohitm15.bl--kpi-k-theme/bl-kpiik-theme) · **Version:** `1.0.0` · **Author:** `Mohit Maroliya`
 
-> **BLACK. PINK. CODE.** A fan-made theme inspired by the contrast and stage aesthetics of BLACKPINK eras such as *SQUARE UP*, *BORN PINK*, and *DEADLINE*. This project is unofficial and does not include official album artwork.
 
 <!-- SCREENSHOT 01 — HERO / FULL WORKBENCH
      Add a wide screenshot showing the entire VS Code window: Activity Bar,
@@ -14,7 +13,7 @@
      Uncomment the Markdown image below once the screenshot exists.
 -->
 <!-- ![BLACKPINK Midnight Stage — full VS Code workbench](assets/screenshots/01-workbench-overview.png) -->
-<img width="1920" height="1080" alt="ss1" src="https://github.com/user-attachments/assets/c488794c-128a-47d7-adaa-33d023d332b9" />
+<img width="1920" height="580" alt="ss1" src="https://github.com/user-attachments/assets/c488794c-128a-47d7-adaa-33d023d332b9" />
 
 > 📸 **Screenshot slot 01 — Full workbench preview:** Replace this note with the main hero screenshot before publishing.
 
@@ -56,7 +55,7 @@ The gallery below contains **intentional placeholders**. Each entry has an HTML 
      Include the line-number gutter to demonstrate readability.
      Suggested file: assets/screenshots/02-python.png
 -->
-<img width="1920" height="1080" alt="beforePY" src="https://github.com/user-attachments/assets/3de9270e-414b-49ec-a4ab-fd855d58eb09" />
+<img width="1920" height="540" alt="beforePY" src="https://github.com/user-attachments/assets/3de9270e-414b-49ec-a4ab-fd855d58eb09" />
 <!-- ![Python syntax highlighting and decorators](assets/screenshots/02-python.png) -->
 
 > 📸 **Screenshot slot 04 — Python editor.**
@@ -70,7 +69,7 @@ The gallery below contains **intentional placeholders**. Each entry has an HTML 
      semantic tokens is recommended for an accurate preview.
      Suggested file: assets/screenshots/03-java.png
 -->
-<img width="1903" height="1047" alt="beforeJAVA" src="https://github.com/user-attachments/assets/ca2893ce-a52e-48b7-b270-8a206244287a" />
+<img width="1903" height="540" alt="beforeJAVA" src="https://github.com/user-attachments/assets/ca2893ce-a52e-48b7-b270-8a206244287a" />
 
 
 <!-- ![Java syntax highlighting using BlackpinkThemePreview.java](assets/screenshots/03-java.png) -->
@@ -85,7 +84,7 @@ The gallery below contains **intentional placeholders**. Each entry has an HTML 
      property names, colour values, and responsive media queries.
      Suggested file: assets/screenshots/04-html-css.png
 -->
-<img width="1920" height="1080" alt="beforeCSS" src="https://github.com/user-attachments/assets/d8d82588-c9d9-4834-8258-185c587f4bca" />
+<img width="1920" height="540" alt="beforeCSS" src="https://github.com/user-attachments/assets/d8d82588-c9d9-4834-8258-185c587f4bca" />
 
 <!-- ![HTML and CSS side-by-side preview](assets/screenshots/04-html-css.png) -->
 
@@ -99,7 +98,7 @@ The gallery below contains **intentional placeholders**. Each entry has an HTML 
      links, inline code, and fenced code blocks.
      Suggested file: assets/screenshots/05-json-markdown.png
 -->
-<img width="1920" height="1080" alt="beforeJSN" src="https://github.com/user-attachments/assets/46d61232-304c-466b-8a15-d35c9d1509c7" />
+<img width="1920" height="540" alt="beforeJSN" src="https://github.com/user-attachments/assets/46d61232-304c-466b-8a15-d35c9d1509c7" />
 
 <!-- ![JSON and Markdown highlighting](assets/screenshots/04-json-markdown.png) -->
 
@@ -115,7 +114,7 @@ The gallery below contains **intentional placeholders**. Each entry has an HTML 
      Use harmless demo commands; hide personal paths and environment secrets.
      Suggested file: assets/screenshots/06-terminal.png
 -->
-<img width="1920" height="1080" alt="beforeTER" src="https://github.com/user-attachments/assets/5c15418e-fcfa-4a04-80ca-b5b31ce85a0b" />
+<img width="1920" height="540" alt="beforeTER" src="https://github.com/user-attachments/assets/5c15418e-fcfa-4a04-80ca-b5b31ce85a0b" />
 
 
 <!-- ![Integrated terminal with black and pink accents](assets/screenshots/06-terminal.png) -->
@@ -144,7 +143,7 @@ The gallery below contains **intentional placeholders**. Each entry has an HTML 
      selected result, and keyboard focus colours.
      Suggested file: assets/screenshots/08-search-command-palette.png
 -->
-<img width="1471" height="792" alt="beforeSEARCH" src="https://github.com/user-attachments/assets/610e2ecd-9287-443e-bd79-06352db98573" />
+<img width="1471" height="540" alt="beforeSEARCH" src="https://github.com/user-attachments/assets/610e2ecd-9287-443e-bd79-06352db98573" />
 
 <!-- ![VS Code Search panel and Command Palette](assets/screenshots/08-search-command-palette.png) -->
 
@@ -158,7 +157,7 @@ The gallery below contains **intentional placeholders**. Each entry has an HTML 
      Use a sample project with no credentials or production code.
      Suggested file: assets/screenshots/09-debug-problems.png
 -->
-<img width="1903" height="1047" alt="beforeSETTINGS" src="https://github.com/user-attachments/assets/016650b6-9ce4-420f-a8d7-271c524524a8" />
+<img width="1903" height="540" alt="beforeSETTINGS" src="https://github.com/user-attachments/assets/016650b6-9ce4-420f-a8d7-271c524524a8" />
 
 <!-- ![Debug session and Problems panel highlighting](assets/screenshots/09-debug-problems.png) -->
 
@@ -186,7 +185,7 @@ The gallery below contains **intentional placeholders**. Each entry has an HTML 
      section headings, buttons, borders, and pink highlights.
      Suggested file: assets/screenshots/11-settings-extensions.png
 -->
-<img width="1903" height="1047" alt="beforeEXT" src="https://github.com/user-attachments/assets/0b7f8969-7c86-4abf-b7c8-81a20798ab6d" />
+<img width="1903" height="540" alt="beforeEXT" src="https://github.com/user-attachments/assets/0b7f8969-7c86-4abf-b7c8-81a20798ab6d" />
 
 <!-- ![Settings, Extensions, and notification styling](assets/screenshots/11-settings-extensions.png) -->
 
@@ -301,26 +300,6 @@ blackpink-midnight-stage-1.0.0/
 
 **The theme file fails in a strict JSON parser.** The comments are valid for the VS Code colour-theme format but not strict JSON. Use a JSONC-aware parser or strip comments for tools requiring strict JSON.
 
-## 📦 Publishing checklist
-
-This project is **prepared for future publication**, but the current package is still configured for local use. Before publishing:
-
-- [x] Capture the screenshots above and replace all placeholder captions/comments with real images.
-- [x] Create your GitHub repository and set its real URL in `package.json` (`repository`, optionally `homepage` and `bugs`).
-- [x] Register a VS Code Marketplace publisher and replace the temporary `publisher: "local-blackpink"` ID.
-- [x] Remove `"private": true` from `package.json` when preparing to publish.
-- [x] Add the `author` metadata (`Mohit Maroliya`) to `package.json`.
-- [x] Choose a license and create the corresponding `LICENSE` file; add a `CHANGELOG.md`.
-- [x] Optionally add an original PNG extension icon (no official BLACKPINK artwork or logos without permission).
-- [x] Check that README image links resolve correctly when packaged; set `repository` before relying on relative GitHub image paths.
-- [ ] Package/test the extension and check its Marketplace preview before publishing.
-
-After those checks, install the official packaging tool and build a VSIX:
-
-```bash
-npm install -g @vscode/vsce
-vsce package
-```
 
 Then follow the official [VS Code extension publishing guide](https://code.visualstudio.com/api/working-with-extensions/publishing-extension) to publish it under your own publisher account.
 
